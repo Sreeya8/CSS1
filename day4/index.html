@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chess board</title>
+</head>
+<style>
+    table{
+     
+        border-radius: 2px;
+        border-width: 4px;
+        border-style: groove;
+        border-color: gray;
+
+    }
+    tr>td{
+        text-align: center;
+        margin: 100px;
+    }
+    .main:nth-child(odd){
+        font-size:27px;
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 20px;
+        color: white;
+        background-color: black;
+    }
+    .main:nth-child(even){
+        
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 20px;
+        color: black;
+        background-color:white;
+    } 
+    .main2:nth-child(even){
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 20px;
+        color: white;
+        background-color:rgb(16, 12, 12);
+    } 
+    .main2:nth-child(odd){
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 20px;
+        color: black;
+        background-color:white;
+    } 
+    .main3:nth-child(odd){
+        padding:30px 30px;
+        background-color: black;
+    } 
+    .main4:nth-child(even){
+        padding:30px 30px;
+        background-color: black;
+    } 
+    .main5:nth-child(odd){
+        padding: 30px 30px;
+        background-color: black;
+    } 
+    .main6:nth-child(even){
+        padding:30px 30px;
+        background-color: black;
+    } 
+    .main7:nth-child(odd){
+        font-size: 25px;
+        padding: 20px 20px;
+        color: white;
+        background-color: black;
+    } 
+    .main7:nth-child(even){
+        
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 20px;
+        color: black;
+        background-color:white;
+    } 
+    
+    .main8:nth-child(even){
+        font-size: 25px;
+        padding: 20px 20px;
+        color: white;
+        background-color: black;
+    }
+    .main8:nth-child(odd){
+        
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 20px;
+        color: black;
+        background-color:white;
+    }  
+
+    
+    td:hover{
+       
+        border: gainsboro solid 4px;
+    }
+
+    h1{
+
+        display: flex;
+        justify-content: center;
+        height: 50px;
+    }
+    
+    
+    
+</style>
+<body>
+    <!-- <h1>CHESS BOARD</h1>
+     
+    h1{
+        font-size: 90px;
+        position: absolute;
+        right:20px;
+        top: 30%;
+        font-family: "Audiowide", sans-serif;
+        
+      }-->
+    <h1>
+
+    <table style="height: 50%;">
+        <tr >
+            <td class="main"style="font-size: 24px;">&#9820;</td>
+            <td class="main"style="font-size: 24px;">&#9822;</td>
+            <td class="main"style="font-size: 24px;">&#9821;</td>
+            <td class="main"style="font-size: 24px;">&#9819;</td>
+            <td class="main"style="font-size: 24px;">&#9818;</td>
+            <td class="main"style="font-size: 24px;">&#9821;</td>
+            <td class="main"style="font-size: 24px;">&#9822;</td>
+            <td class="main"style="font-size: 24px;">&#9820;</td>
+        </tr>
+        <tr >
+            <td class="main2"style="font-size:23px;">&#9823;</td>
+            <td class="main2"style="font-size:23px;">&#9823;</td>
+            <td class="main2"style="font-size:23px;">&#9823;</td>
+            <td class="main2"style="font-size:23px;">&#9823;</td>
+            <td class="main2"style="font-size:23px;">&#9823;</td>
+            <td class="main2"style="font-size:23px;">&#9823;</td>
+            <td class="main2"style="font-size:23px;">&#9823;</td>
+            <td class="main2"style="font-size:23px;">&#9823;</td>
+        </tr>
+        <tr >
+            <td class="main3"></td>
+            <td class="main3"></td>
+            <td class="main3"></td>
+            <td class="main3"></td>
+            <td class="main3"></td>
+            <td class="main3"></td>
+            <td class="main3"></td>
+            <td class="main3"></td>
+        </tr>
+        <tr >
+            <td class="main4" ></td>
+            <td class="main4"></td>
+            <td class="main4"></td>
+            <td class="main4"></td>
+            <td class="main4"></td>
+            <td class="main4"></td>
+            <td class="main4"></td>
+            <td class="main4"></td>
+        </tr>
+        <tr >
+            <td class="main5" ></td>
+            <td class="main5"></td>
+            <td class="main5"></td>
+            <td class="main5"></td>
+            <td class="main5"></td>
+            <td class="main5"></td>
+            <td class="main5"></td>
+            <td class="main5"></td>
+        </tr>
+        <tr>
+            <td  class="main6"></td>
+            <td  class="main6"></td>
+            <td  class="main6"></td>
+            <td  class="main6"></td>
+            <td  class="main6"></td>
+            <td  class="main6"></td>
+            <td  class="main6"></td>
+            <td  class="main6"></td>
+        </tr>
+        <tr>
+            <td  class="main7"style="font-size:23px;">&#9823;</td>
+            <td  class="main7"style="font-size:23px;">&#9823;</td>
+            <td  class="main7"style="font-size:23px;">&#9823;</td>
+            <td  class="main7"style="font-size:23px;">&#9823;</td>
+            <td  class="main7"style="font-size:23px;">&#9823;</td>
+            <td  class="main7"style="font-size:23px;">&#9823;</td>
+            <td  class="main7"style="font-size:23px;">&#9823;</td>
+            <td  class="main7"style="font-size:23px;">&#9823;</td>
+        </tr>
+        <tr >
+            <td class="main8"style="font-size:24px;">&#9814;</td>
+            <td class="main8"style="font-size:24px;">&#9816;</td>
+            <td class="main8"style="font-size:24px;">&#9815;</td>
+            <td class="main8"style="font-size:24px;">&#9813;</td>
+            <td class="main8"style="font-size:24px;">&#9812;</td>
+            <td class="main8"style="font-size:24px;">&#9815;</td>
+            <td class="main8"style="font-size:24px;">&#9816;</td>
+            <td class="main8"style="font-size:24px;">&#9814;</td>
+        </tr>
+    </table>
+
+
+        
+    </h1>
+    
+</body>
+</html>

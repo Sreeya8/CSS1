@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image scrolling</title>
+</head>
+<style>
+    .f1{
+        background-position-x: center;
+        border-style: solid;
+        background-color: rgb(20, 20, 99);
+        border-radius: 5px;
+        border-width: 10px;
+        background-image: url("frontend.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+.f2{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(23, 23, 99);
+        background-image: url("html.webp");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .f3{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(23, 23, 99);
+        background-image: url("css.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .f4{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(240, 229, 17);
+        background-image: url("js.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+   
+    .f5{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(234, 234, 250);
+        background-image: url("angular.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .f6{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(14, 49, 88);
+        background-image: url("vue.jpeg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .f7{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(87, 108, 222);
+        background-image: url("ts.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .b1{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(207, 192, 220);
+        background-image: url("backend.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .b2{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color:rgb(243, 238, 238);
+        background-image: url("java.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .b3{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(234, 233, 235);
+        background-image: url("python.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .b4{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(242, 194, 139);
+        background-image: url("ruby.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .b5{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(139, 130, 225);
+        background-image: url("php.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .b6{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(241, 242, 244);
+        background-image: url("kotlin.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .m1{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(246, 247, 249);
+        background-image: url("mern.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .m2{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(96, 190, 103);
+        background-image: url("mongodb.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .m3{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(10, 13, 10);
+        background-image: url("expressjs.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .m4{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(36, 37, 36);
+        background-image: url("react.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .m5{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(22, 95, 123);
+        background-image: url("nodejs.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .a1{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(4, 5, 5);
+        background-image: url("mean.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .a2{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(96, 190, 103);
+        background-image: url("mongodb.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .a3{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(10, 13, 10);
+        background-image: url("expressjs.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .a4{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(234, 234, 250);
+        background-image: url("angular.png");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    .a5{
+        padding: 0%;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 10px;
+        background: center;
+        background-color: rgb(22, 95, 123);
+        background-image: url("nodejs.jpg");
+        width: 99%;
+        height: 100vh ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+    
+
+
+</style>
+<body>
+    <div class="f1"></div>
+    <div class="f2"></div>
+    <div class="f3"></div>
+    <div class="f4"></div>
+    <div class="f5"></div>
+    <div class="f6"></div>
+    <div class="f7"></div>
+    <div class="f8"></div>
+    <div class="b1"></div>
+    <div class="b2"></div>
+    <div class="b3"></div>
+    <div class="b4"></div>
+    <div class="b5"></div>
+    <div class="b6"></div>
+    <div class="m1"></div>
+    <div class="m2"></div>
+    <div class="m3"></div>
+    <div class="m4"></div>
+    <div class="m5"></div>
+    <div class="a1"></div>
+    <div class="a2"></div>
+    <div class="a3"></div>
+    <div class="a4"></div>
+    <div class="a5"></div>
+    
+
+
+
+
+</body>
+</html>

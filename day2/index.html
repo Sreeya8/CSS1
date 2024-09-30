@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxing and Display</title>
+</head>
+<style>
+    div{
+        display:inline-block;
+    }
+    body{
+        background-color: #2c312c;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    span{
+        background-color: #0c0e0c; 
+        border: none;             
+        color: white;              
+        padding: 15px 35px;       
+        text-align: center;          
+        display: inline-block;      
+        margin: 4px 2px;            
+        border-radius: 10px;        
+      }
+    #php{
+        background-color: pink;
+        border:rgb(215, 204, 226) ridge 10px; 
+          
+        color: rgb(15, 13, 13);              
+        padding: 50px 77px;       
+        text-align: center;          
+        display: inline-block;     
+        margin: 50px 50px;            
+        border-radius: 5px; 
+    }  
+    #jQuery{
+        background-color: rgb(244, 254, 154);
+        
+        border:rgb(215, 204, 226) ridge 10px; 
+            
+        color: rgb(15, 13, 13);              
+        padding: 50px 80px;       
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px; 
+    }
+    #Java{
+        background-color: rgb(252, 255, 226);
+        
+        border:rgb(215, 204, 226) ridge 10px; 
+          
+        color: rgb(15, 13, 13);              
+        padding: 50px 115px;       
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+    }
+    #a{
+        background-color: rgb(193, 248, 245);
+        
+
+        border:rgb(215, 204, 226) ridge 10px; 
+
+        color: rgb(15, 13, 13);              
+        padding: 50px 120px;      
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+    }
+    #w3css{
+        background-color: rgb(161, 254, 249);
+        
+        border:rgb(215, 204, 226) ridge 10px; 
+          
+        color: rgb(15, 13, 13);              
+        padding: 50px 1px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #bootstrap{
+        background-color: rgb(240, 255, 207);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:50px 8px;      
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+    }
+    #c{
+        background-color:pink;
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:50px 235px;      
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #c:hover {
+        
+        border-color:black
+      }
+    #c1{
+        background-color: rgb(244, 254, 154);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:50px 235px;      
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+    }
+    #c1:hover {
+       
+        border-color: black;
+      }
+    #r{
+        background-color: rgb(226, 228, 202);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 80px;      
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #r:hover{
+        border-color: black;
+    }
+    #kotlin{
+        background-color: rgb(232, 237, 186);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 50px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #kotlin:hover{
+        border-color: black;
+    }
+    #Nodejs{
+        background-color: rgb(77, 187, 224);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 50px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #Nodejs:hover{
+        border-color: black;
+    }
+    #React{
+        background-color:pink;
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 50px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #React:hover{
+        border-color: black;
+    }
+    #JSON{
+        background-color: rgb(224, 232, 156);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 50px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #JSON:hover{
+        border-color: black;
+    }
+    #Vue{
+        background-color: rgb(223, 225, 205);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 69px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #Vue:hover{
+        border-color: black;
+    }
+    #MySQL{
+        background-color: rgb(159, 160, 149);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 50px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #MySQL:hover{
+        border-color: black;
+    }
+    #XML{
+        background-color: rgb(142, 223, 227);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 50px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #XML:hover{
+        border-color: black;
+    }
+    #Sass{
+        background-color: pink;
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 60px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #Sass:hover{
+        border-color: black;
+    }
+    #Icons{
+        background-color: rgb(235, 244, 160);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 60px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #Icons:hover{
+        border-color: black;
+    }
+    #RWD{
+        background-color: rgb(131, 184, 231);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 69px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #RWD:hover{
+        border-color: black;
+    }
+    #Graphics{
+        background-color: rgb(211, 211, 205);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 26px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #Graphics:hover{
+        border-color: black;
+    }
+    #Excel{
+        background-color: rgb(145, 223, 237);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 212px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #Excel:hover{
+        border-color: black;
+    }
+    #DSA{
+        background-color: rgb(236, 236, 118);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 40px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #DSA:hover{
+        border-color: black;
+    }
+    #ML{
+        background-color: pink;
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 125px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #ML:hover{
+        border-color: black;
+    }
+    #AI{
+        background-color: rgb(192, 192, 187);
+        border:rgb(215, 204, 226) ridge 10px; 
+         
+        color: rgb(15, 13, 13);              
+        padding:55px 112px;     
+        text-align: center;          
+        display: inline-block;      
+        margin: 50px 50px;            
+        border-radius: 5px;
+
+    }
+    #AI:hover{
+        border-color: black;
+    }
+
+    h1,p{
+        color: #0b0e0b;
+        margin: 30px 50px 20px 50px;
+    }
+    a{
+        display: inline-flex;
+        margin: 30px 50x 20px 50px;
+        color: #0b0e0b;
+        text-align: center;
+        text-decoration:none;
+    }
+    
+      
+      
+</style>
+<body>
+    <div id="php">
+
+        <h1>PHP</h1>
+        <p>A web server programming language</p>
+        <a href="https://en.wikipedia.org/wiki/PHP"><span>Learn PHP</span> </a>
+    </div>
+    <div id="jQuery">
+        <h1 >jQuery</h1>
+        <p>A JS library for developing web pages</p>
+        <a href="https://en.wikipedia.org/wiki/JQuery"><span>Learn jQuery</span> </a>
+
+    </div>
+    <div id="Java">
+        <h1 >Java</h1>
+        <p>A programming language</p>
+        <a href="https://en.wikipedia.org/wiki/Java"><span>Learn Java</span> </a>
+
+    </div>
+    <div id="a">
+        <h1 >C++</h1>
+        <p>A programming language</p>
+        <a href="https://en.wikipedia.org/wiki/C++"><span>Learn C++</span> </a>
+
+    </div>
+    <div id="w3css">
+        <h1>W3.CSS</h1>
+        <p>A CSS framework for faster and better responsive web pages</p>
+        <a href="https://www.w3schools.com/w3css/default.asp"><span>Learn W3.CSS</span> </a>
+
+    </div>
+    <div id="bootstrap">
+        <h1>Bootstrap</h1>
+        <p>A CSS framework for faster and better responsive web pages</p>
+        <a href="https://en.wikipedia.org/wiki/bootstrap"><span>Learn Bootstrap</span> </a>
+
+    </div>
+
+    <div>
+    <a href="https://en.wikipedia.org/wiki/c"><h1 id="c">C</h1></a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/C-sharp"><h1 id="c1">C#</h1></a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/r"><h1 id="r">R</h1></a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/kotlin"><h1 id="kotlin">Kotlin</h1></a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/nodejs"><h1 id="Nodejs">Node.js</h1></a>  
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/react"><h1 id="React">React</h1></a>  
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/json"><h1 id="JSON">JSON</h1></a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/vue"><h1 id="Vue">Vue</h1></a> 
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/mysql"><h1 id="MySQL">MySQL</h1></a> 
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/xml"><h1 id="XML">XML</h1></a> 
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/sass"><h1 id="Sass">Sass</h1></a> 
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/icons"> <h1 id="Icons">Icons</h1></a> 
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/rwd"><h1 id="RWD">RWD</h1> </a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/graphics"><h1 id="Graphics">Graphics</h1></a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/Excel"><h1 id="Excel">Excel</h1></a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/Data Structures and Algorithms"><h1 id="DSA">Data Structures and Algorithms</h1></a>
+    </div>
+    <div>
+    <a href="https://en.wikipedia.org/wiki/Machine Learning"><h1 id="ML">Machine Learning</h1></a>
+    </div>
+    <div>
+    <a  href="https://en.wikipedia.org/wiki/Artificial Intelligence"><h1 id="AI">Artificial Intelligence</h1></a>
+    </div>
+
+
+</body>
+</html>

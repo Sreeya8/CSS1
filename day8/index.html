@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    .main{
+        font-family:cursive ;
+        font-size: small;
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+        position: fixed;
+        background-color: rgb(254, 254, 255);
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        color: black;
+    }
+    .food{
+        
+        margin: 0px 100px 100px 100px;
+        display: grid;
+        grid-template-columns:2fr 2fr 2fr 2fr;
+    }
+    .img1{
+        margin-top: 50%;
+        height: 66vh;
+        width: 90%;
+    }
+    .img2{
+        margin-top:50% ;
+        height: 66vh;
+        width: 90%;
+    }
+    .img3{
+        margin-top: 50%;
+        height: 66vh;
+        width: 90%;
+    }.img4{
+        margin-top: 50%;
+        height: 66vh;
+        width: 90%;
+    }.img5{
+        margin-top:20%;
+        height: 66vh;
+        width: 90%;
+    }.img6{
+        margin-top: 20%;
+        height: 66vh;
+        width: 90%;
+    }.img7{
+        margin-top: 20%;
+        height: 66vh;
+        width: 90%;
+    }.img8{
+        margin-top: 20%;
+        height: 66vh;
+        width: 90%;
+    }
+    .food p{
+        padding-right:10%;
+        line-height: 1.3;
+        text-align:justify;
+        text-align-last: center;
+        font-size: large;
+        font-weight: 1;
+    }
+    .food h2{
+        line-height: 1.5;
+        padding-right:10% ;
+        font-size: x-large;
+        font-weight: 1;
+        text-align: center;
+        text-align-last: center;
+    }
+    .pages{
+        display: grid;
+        grid-template-columns: 3% 3% 3% 3% 3% 3%;
+        
+        justify-content: center;
+        text-align: center; 
+    }
+    .pages p{
+        padding: 5px;
+    }
+    .c1{
+        background-color: black;
+        color: white;
+    }
+    .c1:hover{
+        color: rgb(162, 163, 163);
+    }
+    
+    .pages p:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .about{
+        
+        text-align: center;
+    }
+    .cl1{
+        margin: 90px 0px 40px 0px;
+    }
+    .cl2{
+        margin: 30px 0px ;
+    }
+    
+    .cl4{
+        
+        margin: 20px 0px;
+    }
+    .footer{
+        margin: 10%;
+        display:grid;
+        grid-template-columns: 34% 33% 33% ;
+    }
+    .f1 p{
+        margin-top: 20px;
+        
+    }
+    .f2{
+        display: grid;
+        grid-template-rows: auto auto ;
+        gap: 10;
+    }
+    .f31{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+    .f31 p{
+        background-color: rgb(121, 120, 120);
+        color: white;
+        border: 5px white solid;
+    }
+
+    .f2 img{
+        width: 150%;
+        height: 7vh;
+    }
+    .f2 p{
+        padding-left: 40px;
+    }
+    .f21{
+        display: grid;
+        grid-template-columns: 10% 50%;
+        
+        padding-top: 15px;
+        padding-bottom: 20px;
+        
+    }
+    .f22{
+        display: grid;
+        grid-template-columns: 10% 50%;
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+    .f21:hover{
+        background-color: rgb(169, 173, 173);
+    }
+    .f22:hover{
+        background-color:  rgb(169, 173, 173);
+    }
+    .fas{
+        font-size: 250%;
+        text-align: left;
+        margin-left: 70px;
+    } 
+    .fas:hover{
+        color: rgb(128, 148, 167);
+        cursor: pointer;
+    }
+   
+    .m1{
+        text-align:right;
+        margin-right:60px
+    }   
+    
+    
+</style>
+<body>
+<div>
+    <div class="main">
+        <i class="fas fa-bars"></i>
+        <h1>Brewed Beginnings</h1>
+        <h1 class="m1">Mail</h1>
+    </div>
+    
+    <div class="food">
+        <div class="sandwich"><img class="img1"src="sandwich.jpg" alt="">
+        <h2>The Perfect Sandwich, A Real NYC Classic</h2>
+    <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        <div class="steak"><img class="img2" src="steak.jpg" alt="">
+        <h2>Let Me Tell You About This Steak</h2>
+    <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        <div class="wine"><img class="img3" src="cherries.jpg" alt="">
+        <h2>Cherries, interrupted</h2>
+    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p><p>What else?</p></div>
+        <div class="cherries"><img class="img4" src="wine.jpg" alt="">
+        <h2>Once Again, Robust Wine and Vegetable Pasta</h2>
+    <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+    <div><img class="img5" src="popsicle.jpg" alt="">
+    <h2>All I Need Is a Popsicle</h2>
+<p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+    <div> <img class="img6" src="salmon.jpg" alt="">
+    <h2>Salmon For Your Skin</h2>
+<p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+    <div><img class="img7"src="sandwich.jpg" alt="">
+    <h2>The Perfect Sandwich, A Real Classic</h2>
+<p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+    <div><img class="img8"src="croissant.jpg" alt="">
+    <h2>Le French</h2>
+<p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+</div>
+<div class="pages">
+    <p><<</p>
+    <p class="c1">1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>>></p>
+</div>
+<div class="about">
+    <h2 class="cl1">About Me, The Food Man</h2>
+    <img src="chef.jpg" alt="">
+    <h2 class="cl2">I am Who I Am!</h2>
+    <i>With Passion For Real, Good Food</i>
+    <p class="cl4">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+</div>
+<div class="footer">
+    <div class="f1">
+        <h2>FOOTER</h2>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p>Powered by w3.css</p>
+    </div>
+    <div class="f2">
+        <h2>BLOG POSTS</h2>
+        <div class="f21">
+            <div><img src="workshop.jpg" alt=""></div>
+            
+            <div>
+                <p>Lorem</p>
+                <p>Sed mattis nunc</p>
+            </div>
+        </div>
+        <div class="f22">
+            <div><img src="gondol.jpg" alt=""></div>
+            <div>
+                <p>Ipsum</p>
+                <p>Praes tinci sed</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="f3">
+        <h2>POPULAR TAGS</h2>
+        <div class="f31">
+            <p style=" background-color: black;">Travel</p>
+            <p>New York</p>
+            <p>Dinner</p>
+            <p>Salmon</p>
+            <p>France</p>
+            <p>Drinks</p>
+            <p>Ideas</p>
+            <p>Flavors</p>
+            <p>Cuisine</p>
+            <p>Chicken</p>
+            <p>Dressing</p>
+            <p>Fried</p>
+            <p>Fish</p>
+            <p>Duck</p>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+    
+
+</body>
+</html>
